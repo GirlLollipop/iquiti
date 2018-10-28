@@ -784,7 +784,7 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit; }
 
 p {
-  font-size: 15px;
+  font-size: 2rem;
   line-height: 1.6em;
   color: rgba(0, 0, 0, 0.5); }
   p span {
@@ -1247,7 +1247,7 @@ body {
     background-color: #b19870; }
 
 .ps-btn--outline, button.ps-btn--outline {
-  border: 1px solid #000;
+  border: 1px solid white;
   background-color: transparent; }
 
 .ps-btn--underline {
@@ -2743,7 +2743,7 @@ textarea.form-control {
   border-radius: 5px; }
   .ps-block--about .ps-heading {
     margin-bottom: 10px;
-    font-size: 24px; }
+    font-size: 4rem; }
   @media (max-width: 767px) {
     .ps-block--about {
       padding: 50px 30px; } }
@@ -3967,9 +3967,9 @@ textarea.form-control {
     .ps-collection--2 .ps-collection__content h3 {
       margin-bottom: 25px;
       font-size: 30px;
-      font-weight: 300;
+      font-weight: 600;
       line-height: 1.3em;
-      color: #000; }
+      color: white; }
 
 .ps-collection--3 {
   position: relative;
@@ -4774,7 +4774,8 @@ textarea.form-control {
     line-height: 1.5em;
     color: #000; }
   .ps-hero--2 {
-    height: 780px;
+    width: 100%;
+    height:auto;
     position: relative; }
     .ps-hero--2 .ps-hero__content {
       display: inline-block;
@@ -6156,7 +6157,7 @@ textarea.form-control {
   padding: 15px; }
 
 .ps-about-gallery {
-  padding: 150px 0; }
+  padding: 50px 0; }
   .ps-about-gallery .ps-section__header {
     margin-bottom: 80px;
     text-align: center; }
@@ -6167,7 +6168,7 @@ textarea.form-control {
         margin-bottom: 40px; } }
 
 .ps-about-features {
-  padding: 150px 0; }
+  padding: 50px 0; }
   .ps-about-features .ps-section__header {
     text-align: center;
     margin-bottom: 100px; }

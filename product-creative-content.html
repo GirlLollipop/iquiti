@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
     <!-- Custom-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iquiti.css">
+
     <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!--WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
@@ -149,122 +151,52 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                     <div class="ps-product__info">
-                        <h1 class="ps-product__title">Smocked blouse</h1>
-                        <h4 class="ps-product__price">$39.00</h4>
-                        <div class="ps-product__rating">
-                            <select class="ps-rating">
-                                <option value="1">1</option>
-                                <option value="1">2</option>
-                                <option value="1">3</option>
-                                <option value="1">4</option>
-                                <option value="2">5</option>
-                            </select><span>(2 customers review)</span>
-                        </div>
+                        <h1 class="ps-product__title">Envíanos tu idea y nosotros la hacemos realidad.</h1>
                         <div class="ps-product__short-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh, vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
+                            <p>Puedes enviarnos una imagen de referencia y las medidas en que lo deseas.</p>
+                            <p>Nos pondremos en contacto contigo para darte una cotización y tiempo de entrega</p>
                         </div>
                         <div class="ps-product__variants">
                             <h5>Color</h5>
-                            <div class="ps-radio ps-radio--inline black">
-                                <input class="form-control" type="radio" id="color-1" name="type-1">
-                                <label for="color-1"></label>
+                            <div>
+                                <input type="color">
                             </div>
-                            <div class="ps-radio ps-radio--inline white">
-                                <input class="form-control" type="radio" id="color-2" name="type-1">
-                                <label for="color-2"></label>
+
+
+                            <h5 class="mt-30"> Medidas</h5>
+                            <div class="">
+                              <p>Largo</p>
+                              <input type="text" name="" value="">
                             </div>
-                            <div class="ps-radio ps-radio--inline brown">
-                                <input class="form-control" type="radio" id="color-3" name="type-1">
-                                <label for="color-3"></label>
+                            <div class="">
+                              <p>Ancho</p>
+                              <input type="text" name="" value="">
                             </div>
-                            <div class="ps-radio ps-radio--inline gray">
-                                <input class="form-control" type="radio" id="color-4" name="type-1">
-                                <label for="color-4"></label>
+                            <div class="">
+                              <p>Imagen de referencia</p>
+                              <input type="file" name="" value="">
                             </div>
-                            <h5 class="mt-30"> Size</h5>
-                            <ul class="ps-product__size">
-                                <li><a href="#"><span>xs</span></a></li>
-                                <li><a href="#"><span>S</span></a></li>
-                                <li class="current"><a href="#"><span>M</span></a></li>
-                                <li><a href="#"><span>
-                            <del>L</del></span></a></li>
-                                <li><a href="#"><span>
-                            <del>XL</del></span></a></li>
-                            </ul>
+  <div class="">
+    <p>E-mail</p>
+    <input type="email" name="" value="">
+  </div>
+                          <div class="">
+                            <p>Datos adicionales</p>
+                            <textarea name="name" rows="8" cols="80"></textarea>
+                          </div>
+                          <button type="button" name="button">Enviar</button>
                         </div>
                         <div class="ps-product__divider"></div>
-                        <div class="ps-product__shopping">
-                            <div class="form-group form-group--number">
-                                <input class="form-control" type="text" value="1"><span class="down">-</span><span class="up">+</span>
-                            </div>
-                            <button class="ps-btn ps-btn--black"><i class="exist-minicart mr-5"></i> Add to cart</button>
-                            <ul class="ps-product__cart-action">
-                                <li><a href="#"><i class="exist-heart"></i>Add to Whishlist</a></li>
-                                <li><a href="#"><i class="exist-compare"></i>Compare</a></li>
-                            </ul>
-                            <p><strong>SKU:</strong>N/A</p>
-                            <p><strong>Category:</strong><a href="#">Woman</a>,<a href="#">Top</a></p>
-                        </div>
+
                         <div class="ps-product__divider"></div>
                         <p class="ps-product__sharing">Share:<a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ps-product__content">
-            <div class="ps-container-fluid">
-                <ul class="tab-list" role="tablist">
-                    <li class="active"><a href="#tab_01" aria-controls="tab_01" role="tab" data-toggle="tab">Description</a></li>
-                    <li><a href="#tab_02" aria-controls="tab_02" role="tab" data-toggle="tab">Details</a></li>
-                    <li><a href="#tab_03" aria-controls="tab_03" role="tab" data-toggle="tab">Reviews(2)</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="tab_01">
-                        <div class="ps-content">
-                            <p><strong>Duis rutrum, ante id volutpat vehicula, ante enim luctus dolor, id tincidunt mi augue quis est.</strong></p>
-                            <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis. Sed sit amet eros vel orci porta maximus non commodo mi. Morbi tincidunt dolor elit, a condimentum tortor facilisis sed.</p>
-                        </div>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab_02">
-                        <div class="ps-content">
-                            <p><strong>Duis rutrum, ante id volutpat vehicula, ante enim luctus dolor, id tincidunt mi augue quis est.</strong></p>
-                            <p>Maecenas quis convallis velit. Aliquam laoreet leo non viverra tempor. Aliquam tincidunt mollis lacus, in condimentum ante scelerisque eu. Integer dapibus commodo elit et mollis. Sed sit amet eros vel orci porta maximus non commodo mi. Morbi tincidunt dolor elit, a condimentum tortor facilisis sed.</p>
-                        </div>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab_03">
-                        <p class="mb-20">0 review for <strong>Smocked blouse</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ps-section--product-history bg--cover" data-background="images/product-creative-content/bg-back.jpg">
-        <div class="ps-container-fluid">
-            <div class="ps-section__content">
-                <h3>Back to Classy 1980s</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <br> Morbi efficitur sapien ante, a vulputate risus.</p>
-            </div>
-        </div>
-    </div>
-    <div class="ps-section--product-video">
-        <div class="ps-container-fluid">
-            <div class="ps-video"><img src="images/product-creative-content/bg-video.jpg" alt=""><a class="ps-video__play" href="#"><i class="exist-play"></i></a></div>
-        </div>
-    </div>
-    <div class="ps-section--product-quote">
-        <div class="ps-container-fluid">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 "><img src="images/product-creative-content/collection.jpg" alt="">
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 ">
-                    <div class="ps-section__content">
-                        <h3>Just lay beside the ones you trust enjoying the cold and the winter sun.</h3><a href="#">Shop now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
     <div class="ps-section--relate-products">
         <div class="ps-container-fluid">
             <div class="ps-section__header text-center mb-80">
@@ -281,8 +213,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> T-shirt with slogan</a><span class="ps-product__price">$5250.00</span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail"><img src="images/product/home-1/2.jpg" alt=""><a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
@@ -292,8 +223,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> White crossbody bag</a><span class="ps-product__price">$1250.00</span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail">
@@ -304,8 +234,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Velvet backpack</a><span class="ps-product__price">$5250.00</span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail">
@@ -317,9 +246,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Square cream sunglasses</a><span class="ps-product__price">$5250.00
-                    <del>$725.00</del></span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail"><img src="images/product/home-1/5.jpg" alt=""><a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
@@ -329,9 +256,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Shirt Regular fit</a><span class="ps-product__price">$95.00
-                    <del>$725.00</del></span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail"><img src="images/product/home-1/6.jpg" alt=""><a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
@@ -341,9 +266,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> T-shirt with slogan</a><span class="ps-product__price">$1250.00
-                    <del>$725.00</del></span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail"><img src="images/product/home-1/7.jpg" alt=""><a class="ps-btn ps-product__shopping" href="#"><i class="exist-minicart"></i>Add to cart</a>
@@ -353,8 +276,7 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Leather brown belt</a><span class="ps-product__price">$350.00</span>
-                    </div>
+
                 </div>
                 <div class="ps-product--1" data-mh="product-item">
                     <div class="ps-product__thumbnail">
@@ -365,25 +287,12 @@
                             <li><a class="ps-modal-trigger" href="#quick-view" data-label="Quick View"><i class="exist-quickview"></i></a></li>
                         </ul>
                     </div>
-                    <div class="ps-product__content"><a class="ps-product__title" href="product-detail-1.html"> Denim shorts</a><span class="ps-product__price">$5250.00</span>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <div class="ps-subscribe--2 bg--cover" data-background="images/background/subscribe-2.jpg">
-        <div class="container">
-            <form class="ps-form--subscribe-2" action="do_action" method="post">
-                <h3 class="ps-heading">Get 15% Off Your Next Order</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh,
-                    <br> vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
-                <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Your Email Address">
-                    <button class="ps-btn">Sign up now</button>
-                </div>
-            </form>
-        </div>
-    </div>
+
     <footer class="ps-footer--1">
         <div class="ps-container-fluid">
             <div class="row">
